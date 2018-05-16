@@ -1,7 +1,21 @@
 {
-  "name": "cui-name-card",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Ghostrick <ghostrick.kinako@gmail.com>",
-  "license": "MIT"
+	"name": "cui-name-card",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Ghostrick <ghostrick.kinako@gmail.com>",
+	"license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node src/index.js"
+  },
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-plugin-transform-react-jsx": "^6.24.1",
+		"ink": "^0.5.0"
+	},
+	"babel": {
+		"plugins": [
+			[ "transform-react-jsx", { "pragma": "h" } ]
+		]
+	}
 }
