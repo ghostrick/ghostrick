@@ -1,7 +1,7 @@
 # ghostrick
 > My profile CLI
 
-<img src="screenshot/terminal.png" width="650">
+<img src="https://raw.githubusercontent.com/ghostrick/ghostrick/HEAD/screenshot/terminal.png" width="650">
 
 ## Usage
 ```bash
