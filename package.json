@@ -1,7 +1,8 @@
 {
   "name": "@ghostrick/ghostrick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "repository": "https://github.com/ghostrick/ghostrick",
   "author": "Tomoya Ishizaka <ghostrick.kinako@gmail.com> (https://twitter.com/leafia78)",
   "license": "MIT",
   "bin": "src/bin.js",
